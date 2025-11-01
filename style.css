@@ -1,21 +1,17 @@
 .container{
   background-color: rgb(179, 255, 179);
-  width:1200px;
+  width:1190px;
   height: 300px;
   border-radius: 30px;
   justify-self: center;
-  transition:padding-left 0.3s,padding-right 0.3s,padding-top 0.3s,padding-bottom 0.3s;
+  transition:padding-left 0.3s,padding-right 0.3s,padding-top 0.3s,padding-bottom 0.3s , background-color 0.3s;
 }
 .container:hover{
   background-color: rgb(142, 250, 142);
-  width:1205px;
-  height: 305px;
-  border-radius: 30px;
-  justify-self: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 }
 .para1{
@@ -63,30 +59,48 @@
 .intro-tools{
   justify-self: center;
   margin-top: 70px;
+  width: 90%;
+  justify-items: center;
 }
 
 .video-summary{
   background-color: lightpink;
-  height: 150px;
+  height: 170px;
   width: 800px;
   border-radius: 20px;
+  transition:padding-left 0.3s,padding-right 0.3s,padding-top 0.3s,padding-bottom 0.3s , background-color 0.3s;
 }
 .video-notes{
   background-color: lightblue;
   margin-top: 40px;
   margin-bottom: 40px;
-  height: 150px;
+  height: 170px;
   width: 800px;
   border-radius: 20px;
 }
 .pdf-summary{
   background-color: lightgreen;
-  height: 150px;
+  height: 170px;
   width: 800px;
   border-radius: 20px;
 }
-.youtube-summary-text{
+.video-summary:hover{
+  background-color: rgb(255, 147, 164);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
+}
+.text{
   font-size: 18px;
   font-family:Arial, Helvetica, sans-serif;
-  
+  text-align: center;
+  font-style: italic;
+  font-weight: 510;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  color: rgb(38, 38, 38);
+  line-height: 26px;
 }
