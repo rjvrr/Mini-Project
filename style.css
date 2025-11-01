@@ -1,17 +1,14 @@
 .container{
-  background-color: rgb(179, 255, 179);
+  background-color: rgb(255, 255, 187);
   width:1190px;
   height: 300px;
   border-radius: 30px;
   justify-self: center;
-  transition:padding-left 0.3s,padding-right 0.3s,padding-top 0.3s,padding-bottom 0.3s , background-color 0.3s;
+  transition:transform 0.3s , background-color 0.3s;
 }
 .container:hover{
-  background-color: rgb(142, 250, 142);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: rgb(252, 252, 135);
+  transform: scale(1.02);
 
 }
 .para1{
@@ -55,12 +52,24 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.intro{
+  justify-items: center;
+  height: 70px;
+  margin-bottom: 30px;
+}
+.intro-text{
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(38, 38, 38);
+  margin-top: 30px;
+}
 
 .intro-tools{
   justify-self: center;
   margin-top: 70px;
   width: 90%;
   justify-items: center;
+  margin-top: 0;
 }
 
 .video-summary{
@@ -68,7 +77,11 @@
   height: 170px;
   width: 800px;
   border-radius: 20px;
-  transition:padding-left 0.3s,padding-right 0.3s,padding-top 0.3s,padding-bottom 0.3s , background-color 0.3s;
+  transition:transform 0.3s , background-color 0.3s;
+}
+.video-summary:hover{
+  background-color: rgb(255, 147, 164);
+  transform: scale(1.02);
 }
 .video-notes{
   background-color: lightblue;
@@ -77,30 +90,31 @@
   height: 170px;
   width: 800px;
   border-radius: 20px;
+  transition:transform 0.3s , background-color 0.3s;
+}
+.video-notes:hover{
+  background-color: rgb(134, 225, 255);
+  transform: scale(1.02);
 }
 .pdf-summary{
   background-color: lightgreen;
   height: 170px;
   width: 800px;
   border-radius: 20px;
+  transition:transform 0.3s , background-color 0.3s;
 }
-.video-summary:hover{
-  background-color: rgb(255, 147, 164);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  
+.pdf-summary:hover{
+  background-color: rgb(126, 255, 126);
+  transform: scale(1.02);
 }
+
 .text{
   font-size: 18px;
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
   font-style: italic;
   font-weight: 510;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
   color: rgb(38, 38, 38);
   line-height: 26px;
 }
